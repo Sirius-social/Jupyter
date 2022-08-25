@@ -18,7 +18,6 @@ RUN pip install \
 	sirius_sdk==2.0.1 \
 	&& mkdir -p /opt/conda/notebooks
 
-USER jovyan
 
 WORKDIR /opt/conda/notebooks
 ENV TOKEN ''

@@ -13,6 +13,7 @@ RUN	mkdir -p ~/jkernel && cd ~/jkernel && git clone https://github.com/SpencerPa
 	
 
 RUN pip install \
+	kotlin-jupyter-kernel \
 	petlib \
 	zksk \
 	iplantuml \

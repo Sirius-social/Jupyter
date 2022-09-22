@@ -19,7 +19,7 @@ RUN pip install \
 	iplantuml \
 	iplotter \
 	notebookjs \
-	sirius_sdk==2.0.1 \
+	sirius_sdk==2.1.0 \
 	&& mkdir -p /opt/conda/notebooks
 
 

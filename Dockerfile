@@ -20,6 +20,7 @@ RUN pip install \
 	iplotter \
 	notebookjs \
 	sirius_sdk==2.1.2 \
+	xrpl-py==1.7.0 \
 	&& mkdir -p /opt/conda/notebooks
 
 
